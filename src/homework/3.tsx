@@ -1,4 +1,4 @@
-import { ChangeEvent, useState } from "react";
+import React, { ChangeEvent, useState } from "react";
 
 export function FormComponent() {
   const [value, setValue] = useState<string>("");
